@@ -1,0 +1,12 @@
+name: ManHuntAddon
+version: '${project.version}'
+main: de.shiirroo.manhuntaddon.ManHuntAddon
+api-version: 1.18
+authors: [ Shiirroo ]
+description: A ManHuntAddon for ManHunt
+commands:
+  ManHuntAddon:
+    description: Command for ManHunt plugin
+    usage: <command>
+depend:
+  - ManHunt
